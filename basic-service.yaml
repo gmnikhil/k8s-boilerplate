@@ -1,0 +1,12 @@
+# basic service
+apiVersion: v1
+kind: Service
+metadata:
+  name: mongodb-service
+spec:
+  selector:
+    app: mongodb
+  ports:
+    - port: 27017  #can be different (should be na!)
+      protocol: TCP
+      targetPort: 27017
