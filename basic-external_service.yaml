@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: mongo-express-service
+spec:
+  selector:
+    app: mongo-express
+  type: LoadBalancer  #makes it external service... but internal service also acts as 'loadbalancer!'
+  ports:
+  - port: 8081
+    targetPort: 8081
+    protocol: TCP
+    nodePort: 30000   
+    #nodeport is the port at which external ip adress is open... port which we have to paste in browser
+    #nodeport range: 30000-32767
