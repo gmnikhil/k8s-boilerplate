@@ -8,7 +8,7 @@ Kubernetes is an open-source container-orchestration system for automating compu
 ### Advantages
 - High availability or no downtime
 - Scalability or high performance
-- Disaster recvery
+- Disaster recovery
 
 ## Basic Terms:
 
