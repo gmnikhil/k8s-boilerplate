@@ -40,7 +40,7 @@ Kubernetes is an open-source container-orchestration system for automating compu
 - routes traffic into cluster
 
 ### ConfigMap
-- contains external configuration of applications like database url, service enedpoint etc
+- contains external configuration of applications like database url, service endpoint etc
 
 ### Secret
 - just like ConfigMap but used for secret data
